@@ -1,7 +1,7 @@
 {
   "name": "openfin-platform-bootstrap-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "An example of having a custom provider entry that can run certain logic before showing any UI.",
   "main": "index.html",
   "scripts": {
     "start": "serve"
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/johnman/openfin-csb-template.git"
   },
-  "keywords": [],
+  "keywords": [
+    "platform"
+  ],
   "author": "OpenFin",
   "license": "MIT",
   "bugs": {

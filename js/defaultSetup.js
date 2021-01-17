@@ -22,7 +22,7 @@ export async function getSnapshot() {
                   type: "component",
                   componentName: "view",
                   componentState: {
-                    url: "https://xfse6.csb.app/views/testview.html",
+                    url: "https://vsu7x.csb.app/views/testview.html",
                     name: "component_placeholder1"
                   },
                   isClosable: true,

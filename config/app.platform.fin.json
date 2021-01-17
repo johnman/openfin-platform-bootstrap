@@ -7,9 +7,9 @@
   },
   "platform": {
     "uuid": "platform-bootstrap-and-view-example",
-    "applicationIcon": "https://xfse6.csb.app/favicon.ico",
+    "applicationIcon": "https://vsu7x.csb.app/favicon.ico",
     "autoShow": false,
-    "providerUrl": "https://xfse6.csb.app/platform/provider.html"
+    "providerUrl": "https://vsu7x.csb.app/platform/provider.html"
   },
   "snapshot": {
     "windows": []
