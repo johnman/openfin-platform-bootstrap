@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Platform Bootstrap Example</title>
+    <script src="components/openfin-link.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
+    <h1>
+      This is an example of a platform app that bootstraps the UI and doesn't
+      have the initial view/window in a manifest
+    </h1>
+    <p>
+      You are running OpenFin Runtime version:
+      <span id="openfin-version"></span>
+    </p>
+    <p>
+      <openfin-link
+        show-in-fin="false"
+        href="fins://./config/app.platform.fin.json"
+        >Launch OpenFin Platform Application</openfin-link
+      >
+    </p>
+  </body>
+</html>

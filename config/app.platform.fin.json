@@ -1,0 +1,17 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "runtime": {
+    "arguments": "--v=1 --inspect --security-realm=bootstrap-example --enable-mesh",
+    "version": "stable"
+  },
+  "platform": {
+    "uuid": "platform-bootstrap-and-view-example",
+    "applicationIcon": "https://xfse6.csb.app/favicon.ico",
+    "autoShow": false,
+    "providerUrl": "https://xfse6.csb.app/platform/provider.html"
+  },
+  "snapshot": {
+    "windows": []
+  }
+}
