@@ -1,0 +1,22 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "runtime": {
+    "arguments": "--v=1 --inspect --security-realm=bootstrap-example --enable-mesh",
+    "version": "stable"
+  },
+  "platform": {
+    "uuid": "platform-bootstrap-and-auth-example",
+    "applicationIcon": "https://vsu7x.csb.app/favicon.ico",
+    "autoShow": false,
+    "providerUrl": "https://vsu7x.csb.app/fakelogin/fakelogin.html",
+    "preloadScripts": [
+      {
+        "url": "https://vsu7x.csb.app/fakelogin/auth-preload-check.js"
+      }
+    ]
+  },
+  "snapshot": {
+    "windows": []
+  }
+}

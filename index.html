@@ -15,6 +15,16 @@
       have the initial view/window in a manifest
     </h1>
     <p>
+      It also has an additional example that raises the question about auth
+      where a url request may be intercepted and redirected to a login page. The
+      example here uses a preload script to show the provider window if it
+      believes the window has been redirected to a login page and to hide it
+      once more once login is complete. An alternative approach may be to set
+      autoShow to true in the config and have your bootstrap set it to hidden
+      when it runs. This may however result in a brief flash of UI as the window
+      loads and then is hidden.
+    </p>
+    <p>
       You are running OpenFin Runtime version:
       <span id="openfin-version"></span>
     </p>
@@ -22,7 +32,15 @@
       <openfin-link
         show-in-fin="false"
         href="fins://./config/app.platform.fin.json"
-        >Launch OpenFin Platform Application</openfin-link
+        >Launch OpenFin Platform Bootstrap Application</openfin-link
+      >
+    </p>
+    <p>
+      <openfin-link
+        show-in-fin="false"
+        href="fins://./config/auth.platform.fin.json"
+        >Launch OpenFin Platform Bootstrap with Fake Auth
+        Application</openfin-link
       >
     </p>
   </body>
