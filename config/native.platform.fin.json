@@ -1,0 +1,17 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "runtime": {
+    "arguments": "--v=1 --inspect --security-realm=bootstrap-example --enable-mesh",
+    "version": "stable"
+  },
+  "platform": {
+    "uuid": "platform-bootstrap-native-example",
+    "applicationIcon": "https://vsu7x.csb.app/favicon.ico",
+    "autoShow": false,
+    "providerUrl": "https://vsu7x.csb.app/platform/native-provider.html"
+  },
+  "snapshot": {
+    "windows": []
+  }
+}
